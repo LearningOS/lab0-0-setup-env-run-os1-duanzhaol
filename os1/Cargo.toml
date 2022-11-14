@@ -12,3 +12,10 @@ log = "0.4"
 [profile.release]
 debug = true
 opt-level = 0
+
+
+[source.crates-io]
+replace-with = 'ustc'
+
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
